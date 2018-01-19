@@ -1,0 +1,45 @@
+.containers {
+    width: 90vw;
+    margin: 0 5vw;
+}
+
+.h1title {
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center
+}
+
+.h1title h1 {
+    height: 12vw;
+    line-height: 12vw;
+    margin: 0 2vw;
+    color: #333333;
+}
+
+.yun {
+    width: 12vw;
+    height: 12vw;
+}
+
+.margint {
+    margin-top: 6vw;
+}
+
+.txt {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.08rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.back03 {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+h2 {
+    color: #333333;
+}

@@ -1,0 +1,69 @@
+.search {
+    width: 80vw;
+    padding: 1.5vh 0 1.5vh 5vw;
+    box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: solid 1px #f6bd60;
+    margin: 0 3vw;
+    font-size: 1.35rem;
+}
+.upper-left {
+    position: relative;
+    left: -2vw;
+    top: 1vh;
+}
+
+.upper-right {
+    float: right;
+    position: relative;
+    right: -2vw;
+    top: 1vh;    
+}
+
+.bottom-left {
+    position: relative;
+    bottom: -12vh;
+    left: -30.5vw;
+}
+
+.bottom-right {
+    float: right;
+    position: relative;
+    bottom: -12vh;
+    left: 2vw;
+}
+.search-icon{
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    bottom: 1.5vh;
+    right: 7vw;
+}
+.container{
+    padding-bottom: 3vh;
+}
+ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.square{
+    width: 11vw;
+    height: 11vw;
+    margin: 3.5vh 0 0 0;
+}
+.dream-title{
+    width: 100%;
+    margin-top: 1vh;
+    color: #333333;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.back04{
+    width: 94%;
+    height: 55vh;
+    position: fixed;
+    left: 3%;
+}
+.container{
+    position: relative;
+}

@@ -1,0 +1,313 @@
+.share {
+    width: 3vh;
+    height: 3vh;
+}
+
+.back03 {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.case {
+    padding: 1.5vh 3vw 0 3vw;
+}
+
+.border-out {
+    border: 1px solid #f6bd60;
+    padding: 0.5vw;
+}
+
+.border-in {
+    border: 1px solid #f6bd60;
+}
+
+.square {
+    width: 3vw;
+    height: 1.5vh;
+    position: relative;
+    border: 1px solid #f6bd60;
+    background-color: white;
+}
+
+.leftU {
+    float: left;
+    top: -0.5vh;
+    left: -1vw;
+}
+
+.rightU {
+    float: right;
+    top: -0.5vh;
+    right: -1vw;
+}
+
+.leftD {
+    float: left;
+    bottom: 1vh;
+    left: -1vw;
+}
+
+.rightD {
+    float: right;
+    bottom: 1vh;
+    right: -1vw;
+}
+
+.displays {
+    display: flex;
+    justify-content: center;
+    padding: 2.5vh 0;
+}
+
+.portrait {
+    width: 14vw;
+    height: 7vh;
+    margin-right: 2vw;
+}
+
+.username {
+    font-size: 1.6rem;
+    color: #333333;
+    font-weight: 400;
+}
+
+.gary {
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+td {
+    font-size: 1.35rem;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    color: #666666;
+}
+
+.color1 {
+    background-color: #fdf2df;
+}
+
+.color2 {
+    background-color: #fadeaf;
+}
+
+.color3 {
+    background-color: #f9d79f;
+}
+
+.td-border {
+    border-bottom: 1px solid #999;
+}
+
+.ask {
+    padding: 4vw;
+    text-align: left;
+    line-height: 3vh;
+}
+
+.submit {
+    position: relative;
+    width: 94%;
+    margin: 2vh 3% 0 3%;
+    background-color: #f6bd60;
+    padding: 1.5vw;
+    z-index: -1;
+}
+
+.border {
+    position: relative;
+    z-index: 1;
+    height: 7vh;
+    border: 1px solid white;
+}
+
+.text-submit {
+    width: 94%;
+    position: relative;
+    z-index: 99;
+    height: 7vh;
+    font-size: 1.3rem;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.text-submit span {
+    display: inline-block;
+    width: 16vw;
+    height: 7vh;
+    line-height: 13vw;
+    position: relative;
+    z-index: 100;
+}
+
+.upper-lefts {
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+}
+
+.upper-rights {
+    float: right;
+    width: 5vw;
+    height: 2.5vh;
+    position: relative;
+    top: 0vw;
+    right: 0vw;
+    transform: rotate(90deg);
+}
+
+.bottom-lefts {
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    position: relative;
+    bottom: 3vh;
+    left: 0vw;
+    transform: rotate(-90deg);
+}
+
+.bottom-rights {
+    float: right;
+    width: 5vw;
+    height: 2.5vh;
+    position: relative;
+    bottom: 3vh;
+    right: 0vw;
+    transform: rotate(180deg);
+}
+
+.yun {
+    position: absolute;
+    top: 2.5vh;
+    left: 6vw;
+    width: 16vw;
+    height: 4vh;
+    z-index: 1;
+}
+
+.calculate-title {
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+.analyze {
+    font-size: 1.5rem;
+    color: #333333;
+    margin: 3vw 0;
+    line-height: 3vh;
+}
+
+.common {
+    font-size: 1.5rem;
+    color: #333333;
+    line-height: 3vh;
+}
+
+.absL {
+    position: absolute;
+    left: 1vw;
+    top: 0.5vh;
+}
+
+.absR {
+    position: absolute;
+    right: 1vw;
+    top: 0.5vh;
+}
+
+.store {
+    position: fixed;
+    height: 100vh;
+    z-index: -1;
+}
+
+.updown {
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f27059;
+    font-size: 1.4rem;
+}
+
+.min {
+    width: 5vw;
+    height: 2.5vh;
+    margin-right: 2vw;
+}
+
+#animals {
+    margin-bottom: 0;
+}
+.unfold{
+    margin: 0 5vw;
+}
+
+.box {
+    width: 94%;
+    margin: 0 3%;
+    position: relative;
+    border-top: 1px solid #ccc;
+    color: #999999;
+}
+
+.box::before {
+    content: attr(title);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 0 3vw;
+    background-color: #fff5e8;
+    color: #999999;
+    font-size: 1.4rem;
+}
+
+.min-left {
+    width: 6vw;
+    height: 3vh;
+}
+
+.min-right {
+    width: 5vw;
+    height: 2.5vh;
+    float: right;
+    margin-top: 1.5vh;
+}
+
+.flex {
+    height: 7vh;
+    line-height: 7vh;
+}
+
+.deblocking {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f27059;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 2vw;
+}
+
+.deblocking span {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+}
+
+.min-icon {
+    width: 5vw;
+    height: 2.5vh;
+}

@@ -1,0 +1,210 @@
+@media (max-width:320px) {
+    html,
+    body {
+        font-size: 9px !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:380px) {
+    html,
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:380px) and (max-width:420px) {
+    html,
+    body {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:420px) and (max-width:480px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:480px) and (max-width:960px) {
+    html,
+    body {
+        font-size: 14px;
+        max-width: 960px;
+    }
+}
+
+@media (min-width:960px) {
+    html,
+    body {
+        font-size: 16px;
+        max-width: 960px;
+        margin: auto;
+    }
+    td {
+        height: 6.5vh !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.max-img {
+    width: 100%;
+}
+
+body {
+    min-width: 320px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #2f2f2f;
+}
+
+.vessel {
+    width: 94%;
+    height: 12vw;
+    margin: 2vh 3% 0 3%;
+    background: url(../img/frame01.png);
+    background-image: url(../img/frame01.svg);
+    background-repeat: no-repeat;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs li {
+    width: 33.3%;
+    text-align: center;
+    line-height: 11vw;
+}
+
+.container {
+    width: 100%;
+    padding: 2.5vh 6vw;
+}
+
+.back-white {
+    width: 100%;
+    background-color: white;
+}
+
+.gary-container {
+    height: 12vw;
+}
+
+.control-label {
+    line-height: 12vw;
+    margin-left: 3vw;
+    font-size: 1.4rem;
+    color: #333333;
+    font-weight: 200;
+}
+
+.import {
+    width: 70%;
+    border: none;
+    color: #999999;
+    padding: 0.5vh 2vw;
+    font-size: 1.35rem;
+}
+
+.gender {
+    display: inline-block;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    color: #666666;
+    text-align: center;
+    line-height: 6vw;
+    font-size: 1.2rem;
+    border: solid 1px #cccccc;
+    margin: 0 2vw;
+}
+
+.sex {
+    background-color: #fcc03c;
+    border: solid 1px #666666;
+}
+
+.submit {
+    font-size: 1.6rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-top: 2vh;
+    width: 100%;
+    height: 12vw;
+    background-image: url(../img/button.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 12vw;
+}
+
+.statistics {
+    width: 100%;
+    color: white;
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.statistics span {
+    color: #fcc03c;
+    font-weight: 700;
+    margin: 0 1vw;
+}
+
+.borderBot {
+    border-bottom: 1px solid #424342;
+}
+
+.suanming {
+    background-image: url('../img/suanming_frame.png');
+    background-image: url('../img/suanming_frame.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 68vw;
+}
+
+.hehun {
+    background-image: url('../img/hehun_frame.png');
+    background-image: url('../img/hehun_frame.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 82vw;
+}
+
+.xingming {
+    background-image: url('../img/xingming_frame.png');
+    background-image: url('../img/xingming_frame.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 56vw;
+}
+
+.page-icon {
+    width: 20vw;
+}
+
+.date-selector-btn-box {
+    background-color: #484848;
+    font-size: 1.4rem;
+}
+
+.date-selector-content li {
+    font-size: 1.4rem;
+}

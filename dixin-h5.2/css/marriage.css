@@ -1,0 +1,174 @@
+.banner {
+    width: 100%;
+}
+
+.containers {
+    width: 100%;
+    margin-top: 2vh;
+    padding: 0 5vw;
+    position: relative;
+}
+
+.case {
+    height: 32vw;
+    width: 100%;
+    background-image: url(../img/frame03.png);
+    background-image: url(../img/frame03.svg);
+    background-repeat: no-repeat;
+}
+
+.displays {
+    height: 32vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touxiang {
+    width: 12vw;
+    height: 12vw;
+}
+
+.analyze {
+    color: #333333;
+    font-size: 1.3rem;
+    margin: 1vh 0 0.5vh 0;
+}
+
+.calculate-title {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+
+.total-back {
+    width: 18vw;
+    height: 18vw;
+    background-image: url(../img/hehun_score.png);
+    background-image: url(../img/hehun_score.svg);
+    background-repeat: no-repeat;
+}
+
+.total {
+    width: 18vw;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 16vw;
+    text-align: center;
+}
+
+.left-flower {
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: -2vh;
+    left: 0vw;
+}
+
+.right-flower {
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    bottom: -2vh;
+    right: 0vw;
+}
+
+.bb {
+    bottom: -1vh;
+    right: 0vw;
+}
+
+.tt {
+    top: -1vh;
+    left: 0vw;
+}
+
+.backbig {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    border: solid 2px #ff715b;
+}
+
+td {
+        font-size: 1.2rem;
+    width: 15vw;
+    height: 8vw;
+    text-align: center;
+    vertical-align: middle;
+    color: #666666;
+}
+
+.table-tit {
+    color: #ff715b;
+    font-size: 1.5rem;
+    padding-top: 1.5vh;
+}
+
+.borderB {
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.borderL {
+    border-left: 1px solid #2f2f2f;
+}
+
+.ask {
+    padding: 1.5vh 4vw;
+    text-align: left;
+    line-height: 6vw;
+}
+
+.birth {
+    width: 92%;
+    margin: 2vh 4% 0 4%;
+    padding: 3vh 5vw 0 5vw;
+}
+
+.tem {
+    background-color: white;
+    position: relative;
+    margin-top: 4vh;
+    padding: 4vh 3vw 2vh 3vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	border: solid 2px #666666;
+}
+
+.abso {
+    background-image: url('../img/frame05.png');
+    background-image: url('../img/frame05.svg');
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 10vw;
+    line-height: 10vw;
+    position: absolute;
+    top: -3vh;
+    left: 19%;
+    font-size: 1.4rem;
+    text-align: center;
+    background-size: 100% 100%;
+    color: #333333;
+}
+
+.conter {
+    font-size: 1.4rem;
+    color: #666666;
+}
+
+.deblocking {
+    width: 100%;
+    height: 12vw;
+    line-height: 12vw;
+    text-align: center;
+    background-color: #fcc03c;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 3vh;
+    font-size: 1.4rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.deblocking a {
+    color: white;
+    text-decoration: none;
+}

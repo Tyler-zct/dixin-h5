@@ -1,0 +1,185 @@
+.upper-left {
+    position: relative;
+    left: -3vw;
+}
+
+.upper-right {
+    float: right;
+    position: relative;
+    right: -3vw;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 0.5vh;
+    left: -3vw;
+}
+
+.bottom-right {
+    float: right;
+    position: relative;
+    bottom: 0.5vh;
+    right: -3vw;
+}
+
+.gary-container {
+    background-color: #f7f7f7;
+    height: 6vh;
+    margin-top: 1vh;
+    border: 1px solid #ccc;
+}
+
+.import {
+    border: none;
+    color: #999999;
+    background-color: #f7f7f7;
+    padding: 0.5vh 2vw;
+    font-size: 1.4rem;
+}
+
+.control-label {
+    line-height: 6vh;
+    margin-left: 3vw;
+    font-size: 1.4rem;
+}
+
+.mini {
+    width: 5vw;
+    height: 2.5vh;
+}
+
+.gary {
+    color: #666666;
+    font-size: 1.3rem;
+}
+
+.record a {
+    color: #333333;
+    float: right;
+    text-decoration: none;
+}
+
+.submit {
+    background-color: #f27059;
+    padding: 1.5vw;
+}
+
+.recommend {
+    width: 100%;
+    background-color: white;
+}
+
+.border {
+    height: 6vh;
+    background-image: url('../../images/frame03@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.recommend-b {
+    background-image: url('../../images/frame08@2x.png');
+}
+
+.recommend-t {
+    color: #f6bd60;
+    height: 6vh;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.text-submit {
+    width: 94%;
+    height: 6vh;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 6vh;
+    color: white;
+}
+
+.upper-lefts {
+    float: left;
+    width: 6vw;
+    height: 3vh;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+}
+
+.upper-rights {
+    float: right;
+    width: 6vw;
+    height: 3vh;
+    position: relative;
+    top: 0vw;
+    right: 0vw;
+    transform: rotate(90deg);
+}
+
+.bottom-lefts {
+    float: left;
+    width: 6vw;
+    height: 3vh;
+    position: relative;
+    bottom: 3.5vh;
+    left: 0vw;
+    transform: rotate(-90deg);
+}
+
+.bottom-rights {
+    float: right;
+    width: 6vw;
+    height: 3vh;
+    position: relative;
+    bottom: 3vh;
+    right: 0vw;
+    transform: rotate(180deg);
+}
+
+.other {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.other span {
+    font-weight: 700;
+}
+
+.lantern {
+    width: 100%;
+    ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15vw;
+}
+
+.img-lantern {
+    width: 11vw;
+    height: 11vh;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
+    background-color: #f6bd60;
+    text-align: center;
+}
+
+footer .gary {
+    line-height: 6vh;
+    color: white;
+    margin: 0 2vw;
+}
+
+footer .gary span {
+    color: #f27059;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.yun {
+    width: 12vw;
+    height: 6vh;
+}

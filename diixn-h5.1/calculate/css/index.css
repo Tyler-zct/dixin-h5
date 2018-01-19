@@ -1,0 +1,34 @@
+
+.caption {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #333;
+    margin: 3.5vh 0 1vh 0;
+}
+.upper-right{
+    position: relative;
+    right: -77vw;
+}
+.abstract {
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.acronym {
+    width: 19vw;
+    height: 10vh;
+    float: right;
+    margin: 2.5vh 10vw;
+}
+.template{
+    display:flex;
+    width:100%;
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer ul li {
+    height: 7vh;
+}

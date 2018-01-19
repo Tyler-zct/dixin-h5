@@ -1,0 +1,30 @@
+td,th {
+    font-size: 1.35rem;
+    width: 5vw;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    color: #666666;
+}
+.long{
+    width: 100%;
+}
+.calculate-title{
+    font-size: 1.3rem;
+    color: #999999;
+}
+.ask{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2vw;
+}
+.ask span{
+    margin-right: 2vw;
+    font-weight: 600;
+}
+.red{
+    color: #f27059;
+}
+.updown{
+    background-color: red;
+}

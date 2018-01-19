@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bootstrapValidator.css">
+    <link rel="stylesheet" href="./assets/DateSelector.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>八字算命</title>
+</head>
+
+<body style="height:100vh;">
+    <img src="./img/banner/banner.svg" class="max-img">
+
+    <div class="tabcontainer vessel">
+        <ul class="tabs">
+            <li class="active"><a href="#tab1" title=""><img src="./img/suanming01.svg" class="page-icon"></a></li>
+            <li><a href="#tab2" title=""><img src="./img/hehun02.svg" class="page-icon"></a></li>
+            <li><a href="#tab3" title=""><img src="./img/xingming02.svg" class="page-icon"></a></li>
+        </ul>
+
+        <div class="tab_container content">
+            <!-- 八字算命 -->
+            <div id="tab1" class="tab_content">
+                <form class="container suanming" name="fortunefrom" action="fortune.html" onSubmit="return fortunechinese();" method="post">
+                    <div style="width:100%">
+                        <div class="back-white">
+                            <div class="gary-container borderBot" style="margin:0;">
+                                <label for="name" class="control-label">您的姓名</label>
+                                <input type="text" class="import" name="fullname" placeholder="请输入姓名 (必须汉字)" data-toggle="tooltip" data-placement="bottom"
+                                    title="必须为汉字">
+                            </div>
+                            <div class="gary-container borderBot">
+                                <label for="name" class="control-label">您的性别</label>
+                                <span class="gender sex">男</span>
+                                <span class="gender">女</span>
+                            </div>
+                            <div class="gary-container">
+                                <label for="name" class="control-label">出生时间</label>
+                                <span class="import" id="calculate">请选择</span>
+                            </div>
+                        </div>
+                        <input type="submit" value="立即测算" class="submit">
+                        <div class="statistics">
+                            已为
+                            <span>825149</span>人测算过八字
+                        </div>
+                    </div>
+                </form>
+                <div id="calculateContainer"></div>
+            </div>
+            <!-- 八字合婚 -->
+            <div id="tab2" class="tab_content">
+                <form class="container hehun" name="marryfrom" action="marriage.html" onSubmit="return marrychinese();" method="post">
+                    <div style="width:100%">
+                        <div class="back-white">
+                            <div class="gary-container borderBot" style="margin:0;">
+                                <label for="name" class="control-label">男方姓名</label>
+                                <input type="text" name="male" class="import" placeholder="请输入姓名 (必须汉字)" data-toggle="tooltip" data-placement="bottom" title="必须为汉字">
+                            </div>
+                            <div class="gary-container">
+                                <label for="name" class="control-label">出生时间</label>
+                                <span class="import" id="marry_male">请选择</span>
+                            </div>
+                        </div>
+                        <div class="back-white" style="margin-top:2vh;">
+                            <div class="gary-container borderBot" style="margin:0;">
+                                <label for="name" class="control-label">女方姓名</label>
+                                <input type="text" name="female" class="import" placeholder="请输入姓名 (必须汉字)" data-toggle="tooltip" data-placement="bottom"
+                                    title="必须为汉字">
+                            </div>
+                            <div class="gary-container">
+                                <label for="name" class="control-label">出生时间</label>
+                                <span class="import" id="marry_female">请选择</span>
+                            </div>
+                        </div>
+                        <input type="submit" value="立即测算" class="submit">
+                        <div class="statistics">
+                            已为
+                            <span>976355</span>人测算过婚姻
+                        </div>
+                    </div>
+                </form>
+                <div id="femaleContainer"></div>
+                <div id="maleContainer"></div>
+            </div>
+            <!-- 姓名测算 -->
+            <div id="tab3" class="tab_content">
+                <form class="container xingming" name="namefrom" action="name.html" onSubmit="return checkchinese();" method="post">
+                    <div style="width:100%">
+                        <div class="back-white">
+                            <div class="gary-container borderBot" style="margin:0;">
+                                <label for="name" class="control-label">您的姓氏</label>
+                                <input type="text" name="xing" class="import" placeholder="请输入姓氏" data-toggle="tooltip" data-placement="bottom" title="必须为汉字">
+                            </div>
+                            <div class="gary-container">
+                                <label for="name" class="control-label">您的名字</label>
+                                <input type="text" name="ming" class="import" placeholder="请输入名字" data-toggle="tooltip" data-placement="bottom" title="必须为汉字">
+                            </div>
+                        </div>
+                        <input type="submit" value="立即测算" class="submit">
+                        <div class="statistics">
+                            已为
+                            <span>198763</span>人测算过姓名
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="./assets/bootstrap-3.3.7/dist/js/bootstrap.js" type="text/javascript"></script>
+    <script src="./assets/bootstrapValidator.js" type="text/javascript"></script>
+    <script src="./assets/DateSelector.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>

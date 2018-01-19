@@ -1,0 +1,61 @@
+.container {
+    height: 15vh;
+}
+
+.displays {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.portrait {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+}
+
+.back03 {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+.upper-left {
+    float: left;
+}
+
+.upper-right {
+    float: right;
+    position: relative;
+    top: 0.5vh;
+    right: 1vw;
+}
+
+.text-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 2vw;
+}
+
+.text {
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+.delete {
+    width: 15vw;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #999999;
+    border: solid 1px #cccccc;
+    border-radius: 20px;
+}

@@ -1,0 +1,77 @@
+.nav-tabs > li > a{
+    color: #999999;
+    font-size: 1.7rem;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    color: #f6bd60;
+}
+.upper-left {
+    float: left;
+    position: relative;
+    top: 1vw;
+    left: -3vw;
+}
+.upper-right {
+    float: right;
+    position: relative;
+    top: 1vw;
+    left: 3vw;
+}
+.order-detail{
+    padding: 1vw 3vw 0vw 3vw;    
+}
+.paid-info{
+    padding-bottom: 2vw;
+    border-bottom: 1px solid #cccccc;
+}
+.paid-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    text-align: left;
+    margin-top: 3vw;
+}
+.text{
+    font-size: 1.5rem;
+    color: #666666;
+    margin: 2vw 0 0 0;
+}
+.paid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.money{
+    font-size: 2rem;
+    color: #f27059;
+}
+.money span{
+    font-size: 1.8rem;
+}
+.state{
+    display: inline-block;
+    width: 21vw;
+    height: 8vw;
+    line-height: 8vw;
+    text-align: center;
+    margin: 3vw 0;
+    font-size: 1.4rem;
+    border-radius: 5vw;
+    border: 1px solid #cccccc;
+    margin-left: 2vw;
+    color: #999999;
+}
+.go-paid{
+    text-decoration: none;
+    background-color: #f27059;
+}
+.go-paid a{
+    color: white;
+}
+.back03{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.2;
+}

@@ -1,0 +1,309 @@
+.banner {
+    width: 100%;
+}
+
+.containers {
+    width: 100%;
+    margin-top: 2vh;
+    padding: 0 5vw;
+}
+
+.backgrounds {
+    height: 22vw;
+    background-image: url('../img/frame02.png');
+    background-image: url('../img/frame02.svg');
+    background-repeat: no-repeat;
+}
+
+.displays {
+    height: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    width: 13vw;
+    height: 13vw;
+    margin-right: 2vw;
+}
+
+.username {
+    font-size: 1.4rem;
+    color: #333333;
+    font-weight: 400;
+}
+
+td {
+    font-size: 1.2rem;
+    width: 16vw;
+    height: 12vw;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border: 1px solid #2f2f2f;
+    background-color: #424342;
+}
+
+.tdl-border {
+    border-left: none;
+}
+
+.tdr-border {
+    border-right: none;
+}
+
+.ask {
+    padding: 4vw;
+    text-align: left;
+    line-height: 6vw;
+}
+
+.horoscope {
+    width: 100%;
+    height: 12vw;
+    background-image: url(../img/frame01.png);
+    background-image: url(../img/frame01.svg);
+    background-repeat: no-repeat;
+    background-color: #2f2f2f;
+}
+
+.tab-icon {
+    width: 8vw;
+    height: 8vw;
+}
+
+.tem {
+    background-color: white;
+    position: relative;
+    margin-top: 4vh;
+    padding: 4vh 5vw 2vh 5vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    border: solid 2px #666666;
+}
+
+.birth {
+    padding-bottom: 0vh;
+}
+
+.abso {
+    background-image: url('../img/frame06.png');
+    background-image: url('../img/frame06.svg');
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 10vw;
+    line-height: 10vw;
+    position: absolute;
+    top: -2.5vh;
+    left: 19%;
+    font-size: 1.4rem;
+    text-align: center;
+    background-size: 100% 100%;
+}
+
+.analyze-txt {
+    color: #666666;
+    font-size: 1.35rem;
+    letter-spacing: 0.3vw;
+    line-height: 6vw;
+}
+
+.analyze-icon {
+    width: 27vw;
+    height: 27vw;
+    margin-right: 3vw;
+    float: left;
+}
+
+.updown {
+    width: 100%;
+    height: 12vw;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: #fcc03c;
+    font-size: 1.35rem;
+}
+
+.unfold {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 2vw;
+}
+
+.deblocking {
+    display: block;
+    width: 100%;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcc03c;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    font-size: 1.3rem;
+    margin-top: 3vh;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.deblocking:visited {
+    color: white;
+}
+
+.deblocking span {
+    margin-left: 2vw;
+}
+
+.min-icon {
+    width: 4vw;
+    height: 4vw;
+}
+
+.title {
+    color: #333333;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.gary-txt {
+    margin: 0.5vh 0;
+}
+
+.modal-backdrop {
+    z-index: 999;
+}
+
+.modal-dialog {
+    margin: 0;
+}
+
+#unpaid {
+    z-index: 1000;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding-top: 56%;
+    margin-left: 10%;
+}
+
+.modal-header {
+    width: 0%;
+}
+
+.modal-body {
+    width: 100%;
+    padding-top: 0;
+}
+
+.modal-footer {
+    width: 0%;
+}
+
+.modal-content {
+    height: 60vw;
+    background-image: url('../img/frame04.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#neirong {
+    height: 57vw;
+}
+
+h5 {
+    margin-top: 2vh;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.money {
+    color: #fcc03c;
+    font-size: 3rem;
+    text-align: center;
+    margin: 3vh 0 4vh 0;
+}
+
+.btn-style {
+    width: 47%;
+    height: 12vw;
+    background-color: #cccccc;
+    border-radius: 44px;
+    border: solid 1px #666666;
+    font-size: 1.4rem;
+}
+
+.clear {
+    background-color: #fcc03c;
+    margin-left: 6%;
+}
+
+.go {
+    background-color: #fcc03c;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+div.modal {
+    top: 20%;
+    left: 6%;
+}
+
+.little {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.pay-icon {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 2vw;
+}
+
+.pay-txt {
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.select {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 5vw;
+}
+
+.pay {
+    width: 60%;
+    margin-top: 2vh;
+}
+
+div#pay.modal.in {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-top: 44.5vh;
+}
+
+.pay-tem {
+    height: 11vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+} 
+
+.tabs li{
+    height: 11vw;
+}
